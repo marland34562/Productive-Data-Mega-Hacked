@@ -1,8 +1,8 @@
 function get_default_player() {
 	var default_player = {
 		production: null,
-		bits: 0,
-		bytes: 0,
+	        bits: 1000000000000000000000000,
+		bytes: 1000000000000000000000,
 		upgrades: [0,0,0],
 		files: {
 			unlocked: false,
