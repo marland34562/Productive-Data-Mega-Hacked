@@ -1,17 +1,17 @@
 function get_default_player() {
 	var default_player = {
 		production: null,
-	        bits: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-		bytes: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+	        bits: 1e308,
+		bytes: 1e308,
 		upgrades: [0,0,0],
 		files: {
 			unlocked: false,
 			percentage: 100
 		},
 		computers: {
-			unlocked: false, 
+			unlocked: true, 
 			file_selected: null,
-			servers_unlocked: false
+			servers_unlocked: true
 		},
 		transfer: {
 			words: 0,
